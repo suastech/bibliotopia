@@ -84,20 +84,5 @@
   .carousel-container {
     display: none;
   } 
-/*    .carousel-container {
-    margin: 20px auto;
-   }
-   .item-slide {
-    flex-direction: column;
-   }
-   .image-slide-box {
-    width: 100%;
-   }
-   .description-slide {
-    width: 100%;
-    font-size: 20px;
-   }
-   .image-slide-box img {
-    width: 100px;
-   } */
+
 }
