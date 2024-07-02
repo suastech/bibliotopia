@@ -31,11 +31,10 @@
 
 @media screen and (max-width: 600px) {
   .search-container {
-    margin: 10px auto;
-
+    margin: 40px auto;
   }
   .search-container input {
-    width: 250px;
+    width: 300px;
     height: 35px;
     font-size: 14px;
   }

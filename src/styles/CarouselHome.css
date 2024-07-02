@@ -30,10 +30,7 @@
   margin: auto auto;
   pointer-events: auto;
   cursor: pointer;
-  &:hover {
-    transform: scale(1.02);
-    
-  }
+ 
 }
 
 .description-slide {
@@ -42,10 +39,6 @@
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  &:hover {
-    transform: scale(1.02);
-    
-  }
 }
 
 .description-text {
