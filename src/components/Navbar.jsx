@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav>
       <img src={logo} id="logo-menu" />
-      <div className="item-menu">
+      {/* <div className="item-menu">
         <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink>
       </div>
       <div className="item-menu">
@@ -14,7 +14,7 @@ export default function Navbar() {
       </div>
       <div className="item-menu">
         <NavLink to="/contactar" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Contactar</NavLink>
-      </div>
+      </div> */}
     </nav>
   );
 }
