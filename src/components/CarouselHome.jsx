@@ -25,7 +25,7 @@ export default function CarouselHome({books}) {
         <div key={index} className="item-slide">
         
           <div className="image-slide-box">
-            <img src={element.image} onClick={() => handleSee(element.id)}/>
+            <div style={{width:"80%", margin:"auto auto"}}><img src={element.image} onClick={() => handleSee(element.id)}/></div>
           </div>
           
           <div className="description-slide" onClick={() => handleSee(element.id)}>
