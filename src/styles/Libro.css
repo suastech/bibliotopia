@@ -1,0 +1,169 @@
+#center-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: auto;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+  width: 90%;
+  background-color: rgb(215, 215, 215, 0.85);
+  border-radius: 20px;
+  z-index: 2;
+  position: relative;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.more-button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.book-container h2 {
+  font-size: 1em;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.book-container h3 {
+  font-size: .7em;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.book-container h4 {
+  font-size: .7em;
+  margin: 10px 0;
+  font-weight: 300;
+}
+
+.image-paragraph-container {
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.image-info-container {
+  flex: 1;
+}
+
+.image-info-container > div{
+  font-size: .4em;
+  margin: 5px 0;
+}
+
+.main-book-image{
+  width: 100%;
+  height: auto;
+}
+
+.buttons-and-text {
+  height: 400px;
+  overflow-y: hidden;
+  flex: 4;
+  position: relative;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding-right: 30px;
+}
+
+.text-open {
+  height: auto;
+  padding-bottom: 1em;
+}
+
+.buttons-and-text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2em;
+  background: linear-gradient(to bottom, rgba(240, 240, 240, 0), rgba(215, 215, 215, .85));
+  pointer-events: none;
+}
+
+.buttons-and-text p, .buttons-and-text-open p  {
+  font-size: .5em;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+.book-buttons {
+  display: flex;
+  margin: 0 0 20px 0px;  
+}
+
+.book-buttons button {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 770px) {
+  #center-image {
+    width: 80%;
+  }
+  .book-container {
+    font-size: 35px;
+    width: 85%;
+  }
+  .buttons-and-text {
+    padding-right: 0;
+  }
+
+  .book-container p {
+    font-size: .5em;
+  }
+  .book-container h2, .book-container h3, .book-container h4 {
+    margin: 0;
+  }
+  .book-buttons button{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 15px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .book-container{
+    font-size: 30px;
+  }
+  .buttons-and-text {
+    flex: 2;
+  }
+  .more-button {
+    width: 25px;
+    height: 25px;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+  .book-container{
+    font-size: 30px;
+  }
+  .buttons-and-text {
+    flex: 2;
+  }
+  .book-buttons {
+    flex-direction: column;
+  }
+  .book-buttons button {
+    margin: 5px 0;
+    padding: 10px;
+  }
+}
+
