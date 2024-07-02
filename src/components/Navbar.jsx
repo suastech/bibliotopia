@@ -1,11 +1,13 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "../styles/Navbar.css";
 import logo from "/images/logo3.png";
 
 export default function Navbar() {
+  const navigate = useNavigate()
+
   return (
     <nav>
-      <img src={logo} id="logo-menu" />
+      <img src={logo} id="logo-menu" onClick={() => {navigate("/")}} />
       {/* <div className="item-menu">
         <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink>
       </div>

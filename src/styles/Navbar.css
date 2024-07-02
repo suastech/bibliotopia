@@ -27,6 +27,8 @@ nav img {
   width: 60px;
   height: auto;
   margin: 0 5px;
+  cursor: pointer;
+
 }
 
 @media screen and (max-width:600px) {
