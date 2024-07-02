@@ -81,10 +81,10 @@
 }
 
 @media screen and (max-width: 600px) {
-  /* .carousel-container {
+  .carousel-container {
     display: none;
-  } */
-   .carousel-container {
+  } 
+/*    .carousel-container {
     margin: 20px auto;
    }
    .item-slide {
@@ -99,5 +99,5 @@
    }
    .image-slide-box img {
     width: 100px;
-   }
+   } */
 }
