@@ -8,15 +8,15 @@ export default function Navbar() {
   return (
     <nav>
       <img src={logo} id="logo-menu" onClick={() => {navigate("/")}} />
-      {/* <div className="item-menu">
+      <div className="item-menu">
         <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink>
       </div>
-      <div className="item-menu">
+      {/* <div className="item-menu">
         <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Acerca de</NavLink>
-      </div>
+      </div> */}
       <div className="item-menu">
         <NavLink to="/contactar" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Contactar</NavLink>
-      </div> */}
+      </div>
     </nav>
   );
 }
