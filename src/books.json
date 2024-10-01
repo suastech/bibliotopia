@@ -1,7 +1,21 @@
 [
   {
+    "id": "politica-comunal",
+    "image": "https://res.cloudinary.com/deckhnump/image/upload/v1727790851/politica-comunal_yxtqow.png",
+    "title": "Política comunal",
+    "subtitle": "Mujeres de barrio produciendo lo común en Ciudad de México",
+    "author": "César Enrique Pineda",
+    "shortDescription": "Historia de la Cooperativa Acapatzingo, organización barrial autogestiva que a través de treinta años de lucha ha creado un sistema de autogobierno propio y sistemas autónomos de salud, seguridad , cultura y educación.",
+    "description": "En 1994, un numeroso grupo de familias ocupó nueve hectáreas de tierras en medio de una zona de minas en el oriente precarizado y marginal de la Ciudad de México. Tierras alejadas, infértiles, usadas en parte como tiradero, ubicado en una zona de intensas polvaredas. Familias jóvenes con niños en brazos. Familias sin techo. Tal vez no sospechaban que la búsqueda por una vivienda propia cambiaría radicalmente sus vidas y que se transformarían en una comunidad urbana, la más importante, quizá, de América Latina. No imaginaban, en aquel entonces, convertirse en un movimiento que construye y organiza comunidades como forma de lucha. Tres décadas más tarde, esas tierras se han convertido en la Cooperativa Acapatzingo, una colonia caracacterizada por un tipo especial de riqueza: la que se basa en la cooperación, la colaboración, la reciprocidad y la organización de los más pobres, aquella que ha logrado construir, desde cero, una nueva comunidad, que toma decisiones por asamblea, tiene su propia radio, su sistema de seguridad interno, sus promotoras de salud, su bachillerato popular, sus huertos colectivos, sus plantas de potabilización, sus farolas solares y sus espacios comunes, construidos en buena medida de manera autogestionar; que levantó de la nada cientos de viviendas, todo ello en medio de una zona favelada, precarizada, marginal y sumamente violenta. Este libro es la historia de esas familias y esa comunidad. Y es el testimonio de que aún en medio de condiciones muy adversas, es posible construir una forma de vida digna, libre y solidaria.",
+    "buyLink": "",
+    "downloadLink": "",
+    "isbn": "9786079934835",
+    "year": "2024",
+    "pages": "338"
+  },
+  {
     "id": "el-robo-es-la-propiedad",
-    "image": "/images/el-robo-es-la-propiedad.png",
+    "image": "https://res.cloudinary.com/deckhnump/image/upload/v1727791283/el-robo-es-la-propiedad_uf1jsn.png",
     "title": "¡El robo es la propiedad!",
     "subtitle": "Desposesión y teoría crítica",
     "author": "Robert Nichols",
@@ -15,7 +29,7 @@
   },
   {
     "id": "brazil-land-past",
-    "image": "/images/brazil-land-past.png",
+    "image": "https://res.cloudinary.com/deckhnump/image/upload/v1727791291/brazil-land-past_fdhadg.png",
     "title": "Brazil, Land of the Past",
     "subtitle": "The Ideological Roots of the New Right",
     "author": "Georg Wink",
@@ -29,7 +43,7 @@
   },
   {
     "id": "capitalismo-de-deuda",
-    "image": "/images/capitalismo-de-deuda.png",
+    "image": "https://res.cloudinary.com/deckhnump/image/upload/v1727791283/capitalismo-de-deuda_xnlueg.png",
     "title": "Capitalismo de deuda",
     "subtitle": "Una lectura crítica de la crisis mundial del endeudamiento",
     "author": "Tim Di Muzio y Richard Robbins",
@@ -43,7 +57,7 @@
   },
   {
     "id": "el-sentido-de-ser-hombre",
-    "image": "/images/el-sentido-de-ser-hombre.png",
+    "image": "https://res.cloudinary.com/deckhnump/image/upload/v1727791305/el-sentido-de-ser-hombre_ruxxdg.png",
     "title": "El sentido de ser hombre",
     "subtitle": "",
     "author": "Ole Bjerg",
@@ -57,7 +71,7 @@
   },
   {
     "id": "capital-como-poder",
-    "image": "/images/capital-como-poder.png",
+    "image": "https://res.cloudinary.com/deckhnump/image/upload/v1727791258/capital-como-poder_sjjzmw.png",
     "title": "El capital como poder",
     "subtitle": "Un estudio del orden y el creorden",
     "author": "Jonathan Nitzan y Shimshon Bichler",
@@ -71,7 +85,7 @@
   },
   {
     "id": "hacer-dinero",
-    "image": "/images/hacer-dinero.png",
+    "image": "https://res.cloudinary.com/deckhnump/image/upload/v1727791268/hacer-dinero_llclgi.png",
     "title": "Hacer dinero",
     "subtitle": "Filosofía del capitalismo postcrédito",
     "author": "Ole Bjerg",
@@ -85,7 +99,7 @@
   },
   {
     "id": "la-disputa-de-los-economistas",
-    "image": "/images/la-disputa-de-los-economistas.png",
+    "image": "https://res.cloudinary.com/deckhnump/image/upload/v1727791268/la-disputa-de-los-economistas_asmzyh.png",
     "title": "La disputa de los economistas",
     "subtitle": "",
     "author": "Gilles Raveaud",
@@ -99,7 +113,7 @@
   },
   {
     "id": "mexico-izquierdo",
-    "image": "/images/mexico-izquierdo.png",
+    "image": "https://res.cloudinary.com/deckhnump/image/upload/v1727791304/mexico-izquierdo_m8hilx.png",
     "title": "México izquierdo",
     "subtitle": "Claroscuros de las izquierda mexicanas (1968-2021)",
     "author": "Massimo Modonesi",
@@ -113,7 +127,7 @@
   },
   {
     "id": "democratizar-el-dinero",
-    "image": "/images/democratizar-el-dinero.png",
+    "image": "https://res.cloudinary.com/deckhnump/image/upload/v1727791262/democratizar-el-dinero_djzmnr.png",
     "title": "Democratizar el dinero",
     "subtitle": "Una introducción a la Reforma del Dinero Soberano",
     "author": "Jesús Suaste, Govert Schuller, Mark Young (eds)",

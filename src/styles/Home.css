@@ -33,8 +33,10 @@
   overflow-x: hidden;
   padding: 10px;
   width: 260px;
+  opacity: .9;
   &:hover {
-    opacity: 0.5;
+    opacity: 1;
+    transform: scale(1.02);
   }
 }
 

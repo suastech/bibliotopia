@@ -31,16 +31,15 @@
   cursor: pointer;
 }
 
-
 .book-container h2 {
-  font-size: 1em;
-  margin: 10px 0;
+  font-size: 1.2em;
+  margin: 0;
   font-weight: 600;
 }
 
 .book-container h3 {
   font-size: .7em;
-  margin: 10px 0;
+  margin: 0px 0;
   font-weight: 400;
 }
 

@@ -1,4 +1,4 @@
-import image from '../../public/images/welcome-image.png'
+import image from '/images/welcome-image.png'
 
 export default function NotFound () {
 

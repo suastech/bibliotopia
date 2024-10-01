@@ -47,8 +47,9 @@ export default function Libro(){
 
             <h2>{book.title}</h2>
             <h3>{book.subtitle}</h3>
-            <hr/>
             <h4>{book.author}</h4>
+            <hr/>
+
 
             <div className="image-paragraph-container">
            
@@ -61,8 +62,8 @@ export default function Libro(){
            
               <div className={ `buttons-and-text ${openText? "text-open" : ""} `}>
                 <div className="book-buttons">
-                  <button onClick={handleDownload}>Descargar PDF</button>
-                  <button onClick={handleGet}>Impreso</button>
+                  {book.downloadLink.length === 0 ? <button>Descarga próximamente</button>: <button onClick={handleDownload}>Descargar PDF</button>}
+                  {book.buyLink.length !== 0 && <button onClick={handleGet}>Impreso</button>}
                 </div>
                 <p>{book.description}</p>
 
